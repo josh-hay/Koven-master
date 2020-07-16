@@ -21,12 +21,12 @@ public class MongoHandler {
     public MongoHandler(kCore kCore) {
         FileManager fileManager = kCore.getFileManager();
         ConfigurationSection mongoConfig = fileManager.getConfig().getConfigurationSection("mongo");
-        String ip = mongoConfig.getString("mongo.ip");
-        int port = mongoConfig.getInt("mongo.port");
-        String database = mongoConfig.getString("mongo.database");
-        boolean auth = mongoConfig.getBoolean("mongo.auth.enabled");
-        String username = mongoConfig.getString("mongo.auth.username");
-        String password = mongoConfig.getString("mongo.auth.password");
+        String ip = mongoConfig.getString("ip");
+        int port = mongoConfig.getInt("port");
+        String database = mongoConfig.getString("database");
+        boolean auth = mongoConfig.getBoolean("auth.enabled");
+        String username = mongoConfig.getString("auth.username");
+        String password = mongoConfig.getString("auth.password");
 
         if (auth) {
             mongoClient = new MongoClient(new ServerAddress(ip, port), Collections.singletonList(MongoCredential.createCredential(username, database, password.toCharArray())));

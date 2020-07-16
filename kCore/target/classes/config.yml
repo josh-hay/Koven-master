@@ -1,0 +1,31 @@
+mongo:
+  ip: localhost
+  port: 27017
+  database: koven
+  auth:
+    enabled: true
+    username: admin
+    password: admin
+
+redis:
+  host: localhost
+  port: 6379
+  timeout: 30000
+  auth:
+    enabled: false
+    password: admin
+
+autoBroadcaster:
+  enabled: true
+  frequency: 500
+  messages:
+    - "&fFound a bug? Report it: &chttps://koven.cc/forum"
+    - "&fWant to join our team? Apply now: &chttps://koven.cc/apply"
+    - "&fJoin our discord: &chttps://koven.cc/discord"
+
+settings:
+  announceServerStatus: true
+  serverName: "na-practice"
+  chatFormat: "%tag%%prefix%%player%&8: &f%message%"
+  staffChatFormat: "&b[S] &3[%server%] %color%%player%&b: %message%"
+  adminChatFormat: "&c[A] &4[%server%] %color%%player%%c: %message%"

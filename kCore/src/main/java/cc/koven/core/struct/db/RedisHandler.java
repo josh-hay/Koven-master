@@ -33,11 +33,11 @@ public class RedisHandler {
     public RedisHandler(kCore kCore) {
         FileManager fileManager = kCore.getFileManager();
         ConfigurationSection redisConfig = fileManager.getConfig().getConfigurationSection("redis");
-        String host = redisConfig.getString("redis.host");
-        int port = redisConfig.getInt("redis.port"),
-                timeout = redisConfig.getInt("redis.timeout");
-        boolean usePassword = redisConfig.getBoolean("redis.auth.enabled");
-        String password = redisConfig.getString("redis.auth.password");
+        String host = redisConfig.getString("host");
+        int port = redisConfig.getInt("port"),
+                timeout = redisConfig.getInt("timeout");
+        boolean usePassword = redisConfig.getBoolean("auth.enabled");
+        String password = redisConfig.getString("auth.password");
         GenericObjectPoolConfig config = new GenericObjectPoolConfig();
         config.setMaxTotal(20);
         this.jedisPool = new JedisPool(config, host, port, timeout);

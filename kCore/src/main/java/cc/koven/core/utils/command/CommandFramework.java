@@ -44,13 +44,7 @@ public class CommandFramework implements CommandExecutor {
                 Field field = SimplePluginManager.class.getDeclaredField("commandMap");
                 field.setAccessible(true);
                 map = (CommandMap) field.get(manager);
-            } catch (IllegalArgumentException e) {
-                e.printStackTrace();
-            } catch (SecurityException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            } catch (NoSuchFieldException e) {
+            } catch (IllegalArgumentException | SecurityException | IllegalAccessException | NoSuchFieldException e) {
                 e.printStackTrace();
             }
         }
@@ -73,10 +67,10 @@ public class CommandFramework implements CommandExecutor {
      */
     public boolean handleCommand(CommandSender sender, org.bukkit.command.Command cmd, String label, String[] args) {
         for (int i = args.length; i >= 0; i--) {
-            StringBuffer buffer = new StringBuffer();
+            StringBuilder buffer = new StringBuilder();
             buffer.append(label.toLowerCase());
             for (int x = 0; x < i; x++) {
-                buffer.append("." + args[x].toLowerCase());
+                buffer.append(".").append(args[x].toLowerCase());
             }
             String cmdLabel = buffer.toString();
             if (commandMap.containsKey(cmdLabel)) {
@@ -100,11 +94,7 @@ public class CommandFramework implements CommandExecutor {
                 try {
                     method.invoke(methodObject, new CommandArgs(sender, cmd, label, args,
                             cmdLabel.split("\\.").length - 1));
-                } catch (IllegalArgumentException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (InvocationTargetException e) {
+                } catch (IllegalArgumentException | IllegalAccessException | InvocationTargetException e) {
                     e.printStackTrace();
                 }
                 return true;
@@ -170,8 +160,8 @@ public class CommandFramework implements CommandExecutor {
     }
 
     public void registerCommand(Command command, String label, Method m, Object obj) {
-        commandMap.put(label.toLowerCase(), new AbstractMap.SimpleEntry<Method, Object>(m, obj));
-        commandMap.put(this.plugin.getName() + ':' + label.toLowerCase(), new AbstractMap.SimpleEntry<Method, Object>(m, obj));
+        commandMap.put(label.toLowerCase(), new AbstractMap.SimpleEntry<>(m, obj));
+        commandMap.put(this.plugin.getName() + ':' + label.toLowerCase(), new AbstractMap.SimpleEntry<>(m, obj));
         String cmdLabel = label.split("\\.")[0].toLowerCase();
         if (map.getCommand(cmdLabel) == null) {
             org.bukkit.command.Command cmd = new BukkitCommand(cmdLabel, this, plugin);
@@ -220,7 +210,6 @@ public class CommandFramework implements CommandExecutor {
     }
 
     private void defaultCommand(CommandArgs args) {
-        args.getSender().sendMessage(args.getLabel() + " is not handled! Oh noes!");
     }
 
 }

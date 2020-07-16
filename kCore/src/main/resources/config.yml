@@ -3,12 +3,12 @@ mongo:
   port: 27017
   database: koven
   auth:
-    enabled: false
+    enabled: true
     username: admin
     password: admin
 
 redis:
-  ip: localhost
+  host: localhost
   port: 6379
   timeout: 30000
   auth:
@@ -24,6 +24,8 @@ autoBroadcaster:
     - "&fJoin our discord: &chttps://koven.cc/discord"
 
 settings:
+  announceServerStatus: true
+  formatChat: true
   serverName: "na-practice"
   chatFormat: "%tag%%prefix%%player%&8: &f%message%"
   staffChatFormat: "&b[S] &3[%server%] %color%%player%&b: %message%"

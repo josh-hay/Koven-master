@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0feb050c-e4aa-4002-b11e-5df289fb3bba" name="Default Changelist" comment="" />
+    <list default="true" id="0feb050c-e4aa-4002-b11e-5df289fb3bba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/CacheHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/CacheListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/packets/AddCachePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/command/InformationCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerInformationPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerInformationReturnPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerStatusPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/kCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/kCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/MongoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/MongoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/RedisHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/RedisHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/CommandFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/CommandFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/enums/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/enums/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kCore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/kCore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kPractice/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kPractice/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/kPractice/target/" />
@@ -13,15 +42,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/kCore.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="1416">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kCore/src/main/resources/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kCore/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="787">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -36,6 +92,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -48,16 +107,32 @@
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/config/FileHandler.java" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Text.java" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/config/FileManager.java" />
-        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/enums/Messages.java" />
-        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/command/CoreCommand.java" />
         <option value="$PROJECT_DIR$/kCore/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/redis/obj/Serializer.java" />
-        <option value="$PROJECT_DIR$/kCore/pom.xml" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/redis/RedisHandler.java" />
-        <option value="$PROJECT_DIR$/kCore/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/MongoHandler.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/CommandFramework.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/Command.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/command/CoreCommand.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/packets/RankPackets.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Maps.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Strings.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerInformationPacket.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/ServerListener.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerInformationReturnPacket.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/ServerHandler.java" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/RedisHandler.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerStatusPacket.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/packets/AddCachePacket.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/CacheListener.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/CacheHandler.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/enums/Messages.java" />
         <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/kCore.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/command/InformationCommand.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileHandler.java" />
+        <option value="$PROJECT_DIR$/kCore/src/main/resources/config.yml" />
+        <option value="$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileListener.java" />
+        <option value="$PROJECT_DIR$/kCore/pom.xml" />
       </list>
     </option>
   </component>
@@ -140,7 +215,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="struct" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Koven-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Koven-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Koven-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Koven-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Koven-master" type="b2602c69:ProjectViewProjectNode" />
@@ -150,24 +246,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Koven-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Koven-master" type="462c0819:PsiDirectoryNode" />
+              <item name="kCore" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Koven Network/src/mCore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Josh\Desktop\Koven\Development\Koven-master\kCore\src\main\java\cc\koven\core\struct\cache" />
+      <recent name="C:\Users\Josh\Desktop\Koven\Development\Koven-master\kCore\src\main\java\cc\koven\core\struct\server" />
       <recent name="C:\Users\Josh\Desktop\Koven\Development\Koven-master\kCore\src\main\java\cc\koven\core\utils\command" />
     </key>
   </component>
@@ -223,20 +327,22 @@
       <updated>1594852285877</updated>
       <workItem from="1594852288859" duration="5657000" />
       <workItem from="1594858966734" duration="1287000" />
+      <workItem from="1594866965158" duration="12224000" />
+      <workItem from="1594910740727" duration="290000" />
+      <workItem from="1594911076068" duration="131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6944000" />
+    <option name="totallyTimeSpent" value="19589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Floobits" order="1" />
@@ -265,43 +371,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/BukkitCompleter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/CommandArgs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1661" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/CommandFramework.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/BukkitCommand.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/Completer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kPractice/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/j.java" />
     <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/s.java" />
@@ -326,17 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/s.java" />
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/enums/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kCore/src/main/resources/messages.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -344,16 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/command/CoreCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -367,34 +425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.11.0/mongo-java-driver-3.11.0.jar!/com/mongodb/Mongo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2418">
           <caret line="235" column="5" lean-forward="true" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/MongoHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -410,10 +444,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/RedisHandler.java">
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/CommandFramework.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/BukkitCompleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="61" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/command/BukkitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/command/CoreCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/s.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/packets/RankPackets.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/RankListener.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/Rank.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/RankHandler.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/packets/RankCreatePacket.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/features/ranks/packets/RankRemovePacket.java" />
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Maps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerInformationPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/ServerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerInformationReturnPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/MongoHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/db/RedisHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3888#3889#0" expanded="true" />
+            <element signature="e#3949#3950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/packets/ServerStatusPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/generic/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/packets/AddCachePacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/CacheListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/cache/CacheHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/command/InformationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/utils/enums/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -422,11 +624,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/kCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="456">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/server/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/java/cc/koven/core/struct/profiles/ProfileListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kCore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
