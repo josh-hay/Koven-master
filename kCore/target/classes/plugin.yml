@@ -1,0 +1,6 @@
+name: kCore
+main: cc.koven.core.kCore
+author: suicide#0001
+version: 1.0-SNAPSHOT
+description: The core of the Koven Network.
+website: https://koven.cc

@@ -1,0 +1,16 @@
+cc\koven\core\utils\command\CommandFramework.class
+cc\koven\core\kCore.class
+cc\koven\core\struct\config\FileManager.class
+cc\koven\core\utils\command\Command.class
+cc\koven\core\command\CoreCommand.class
+cc\koven\core\utils\generic\Text.class
+cc\koven\core\struct\db\redis\obj\Serializer$1.class
+cc\koven\core\utils\command\BukkitCompleter.class
+cc\koven\core\utils\command\BukkitCommand.class
+cc\koven\core\utils\command\CommandArgs.class
+cc\koven\core\utils\command\Completer.class
+cc\koven\core\struct\db\redis\obj\Packet.class
+cc\koven\core\struct\db\mongo\MongoHandler.class
+cc\koven\core\struct\db\redis\obj\Serializer.class
+cc\koven\core\struct\db\redis\RedisHandler.class
+cc\koven\core\utils\enums\Messages.class
