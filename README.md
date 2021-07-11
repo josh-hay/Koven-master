@@ -1,2 +1,3 @@
 # Koven-master
- A collection of plugins for the Koven Network.
+
+Collection of base work for the Koven Network.
